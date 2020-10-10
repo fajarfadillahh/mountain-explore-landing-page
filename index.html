@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountain Explore Landing Page</title>
+
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="l-header">
+      <nav class="nav bg-grid">
+        <a href="#" class="nav__logo">Mountain</a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Adventure</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <div class="home">
+      <div
+        class="parallax home__parallax home__parallax-img1"
+        data-rellax-speed="-9"
+      ></div>
+      <div
+        class="parallax home__parallax home__parallax-img2"
+        data-rellax-speed="-7"
+      ></div>
+      <div
+        class="parallax home__parallax home__parallax-img3"
+        data-rellax-speed="-6"
+      ></div>
+      <div
+        class="parallax home__parallax home__parallax-img4"
+        data-rellax-speed="-3"
+      ></div>
+
+      <h1 class="parallax home__title" data-rellax-speed="-6">Mountain</h1>
+      <span class="parallax home__subtitle" data-rellax-speed="-5"
+        >Mountain Explore</span
+      >
+
+      <div class="home__scroll">
+        <a href="#explore"><i class="bx bx-mouse"></i></a>
+      </div>
+    </div>
+
+    <!-- EXPLORE SECTION -->
+    <section class="l-explore" id="explore">
+      <div class="explore">
+        <div class="explore__data">
+          <h2 class="explore__title">Slicing Mountains</h2>
+          <p class="explore__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
+            deserunt possimus cum est alias, similique tempore architecto, hic
+            labore et sed soluta dolore ex iure earum nam ipsam! Omnis,
+            reiciendis?
+          </p>
+        </div>
+
+        <img src="./img/imgm.jpg" alt="Explore Section" class="explore__img" />
+      </div>
+    </section>
+
+    <!-- gsap animation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- rellax js -->
+    <script src="./js/rellax.min.js"></script>
+
+    <!-- javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
